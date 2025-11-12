@@ -6,22 +6,79 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <title>O livro perfeito</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+    <title>A Máquina do Tempo Perdida</title>
 </head>
 <body>
     <main>
         <div class="passo ativo" id="passo-0">
-            <img src="cenario-passo0.png" alt="">
-            <p>Em uma pequena e aconchegante livraria chamada "O Canto do Leitor", localizada em uma rua de paralelepípedos na cidade de Portobelo, trabalhava Elara. Ela era uma mulher de trinta e poucos anos, com óculos de aro fino e a habilidade de encontrar o livro perfeito para qualquer pessoa, mesmo para aquelas que não sabiam o que procuravam.
-!</p>
-            <button class="btn-proximo" data-proximo="1">Continuar</button>
-            <button class="btn-proximo" data-proximo="2">Sair</button>
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Enquanto organizava o laboratório de ciências da escola, você encontrou o diário de um inventor desaparecido. Ele fala sobre uma máquina do tempo escondida em algum lugar do país. Curioso, você decide seguir as pistas e tentar encontrá-la!</p>
+            <button class="btn-proximo" data-proximo="1">São Paulo</button>
+            <button class="btn-proximo" data-proximo="2">Minas Gerais</button>
         </div>
+
         <div class="passo" id="passo-1">
-            <p>Era uma tarde de outono particularmente cinzenta. A chuva batia suavemente na grande janela da frente, e o cheiro de café fresco e papel antigo pairava no ar. Elara estava organizando uma nova remessa de ficção histórica quando o sino acima da porta tilintou, anunciando a chegada de um cliente.</p>
-            <button class="btn-proximo" data-proximo="3">Atender o cliente com paciencia</button>
-            <button class="btn-proximo" data-proximo="4">Não atender e ignorar</button>
+            <p>Você começa sua busca em São Paulo, onde o diário menciona uma antiga torre de observação usada pelo inventor.</p>
+            <button class="btn-proximo" data-proximo="3">Subir até o topo da torre</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Em Minas Gerais, o diário fala sobre uma cidade histórica onde o inventor teria deixado uma peça essencial da máquina. Onde investigar primeiro?</p>
+            <button class="btn-proximo" data-proximo="5">Explorar as minas antigas</button>
+            <button class="btn-proximo" data-proximo="6">Visitar o centro histórico</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>No topo da torre, você encontra um antigo telescópio apontando para o norte — dentro dele há um mapa indicando a próxima pista em Brasília.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para Brasília</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="voltando para casa">
+            <p>Você decide que tudo isso é loucura e volta para casa. Mas, no fundo, sempre se pergunta o que teria encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas minas antigas, você encontra um compartimento secreto com uma engrenagem dourada — a “Chave Temporal”. No verso dela, uma inscrição indica Brasília.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para Brasília</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>No centro histórico, você encontra uma loja de antiguidades, mas nada além de objetos comuns.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar as minas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Em Brasília, você encontra as ruínas do antigo laboratório do inventor. Dentro, há dois portais energizados piscando com luz azul e vermelha.</p>
+            <button class="btn-proximo" data-proximo="9">Entrar no portal azul</button>
+            <button class="btn-proximo" data-proximo="10">Entrar no portal vermelho</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às minas, você encontra a engrenagem dourada. Ela brilha ao toque — é claramente parte da máquina do tempo. Agora, rumo a Brasília!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para Brasília</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O portal azul leva você a um futuro distante. Entre cidades flutuantes, você encontra a máquina do tempo completa e funcionando!</p>
+            <button class="btn-proximo" data-proximo="11">Ativar a máquina do tempo</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O portal vermelho leva a uma linha do tempo em colapso — prédios desmoronam e o ar é denso de energia instável. É perigoso ficar aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Voltar e tentar o outro portal</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="máquina do tempo brilhando">
+            <p>Você ativa a máquina e viaja por eras diferentes, tornando-se o novo guardião do tempo e jurando proteger o segredo da invenção.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Voltando e escolhendo o portal azul, você enfim encontra o futuro e a verdadeira máquina do tempo!</p>
+            <button class="btn-proximo" data-proximo="11">Ativar a máquina do tempo</button>
         </div>
     </main>
     <script src="script.js"></script>
